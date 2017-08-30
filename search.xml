@@ -3,6 +3,34 @@
   
     
     <entry>
+      <title><![CDATA[linux下php环境搭建(xampp)]]></title>
+      <url>/2017/08/30/linux%E4%B8%8Bphp%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA(xampp)/</url>
+      <content type="html"><![CDATA[<p>学习一门语言之前需要配置环境，今天我们就将配置php开发环境，为php的后续学习做准备。<br>xampp是一个功能强大的建站集成软件包。这个软件包原来的名字是 LAMPP，但是为了避免误解，最新的几个版本就改名为 XAMPP 了。<br><a id="more"></a><br>1.使用linux的wget命令下载，下载前先进入opt文件夹：</p>
+<pre><code>cd /opt
+wget 下载地址
+</code></pre><p>2.然后我们先赋予755权限，防止因为权限不足导致无法安装。</p>
+<pre><code>chmod -R 755 xampp-linux-1.8.3-5-installer.run
+</code></pre><p>关于755权限，详见这里：<a href="http://jingyan.baidu.com/article/54b6b9c0d12e662d593b4761.html" target="_blank" rel="external">777,644,755等用户权限说明</a><br>3.然后运行这个安装文件</p>
+<pre><code>./xampp-linux-1.8.3-5-installer.run
+</code></pre><p>4.启动xampp：<br>sudo ./lampp start<br>启动成功后，到浏览器输入localhost，可以看到xampp的主页：<br><img src="http://img.blog.csdn.net/20160920141303450" alt="xampp"><br>5.新建php页面测试：<br>在/opt/lampp/htdocs下新建test.php文件，代码如下:</p>
+<pre><code>&lt;?php
+   phpinfo();
+ ?&gt;
+</code></pre><p>然后浏览器访问<a href="http://localhost/test.php，查看结果。" target="_blank" rel="external">http://localhost/test.php，查看结果。</a></p>
+<p>6.运行mysql：<br>注意需要进入到目录！看下图。<br>进入之后，<br>第一步输入用户名密码，进入之后我们就可以执行我们熟悉的sql语句了。<br><img src="http://ooerhngjn.bkt.clouddn.com/mysql.png" alt="mysql"><br>7.停止xampp：<br>sudo ./lampp stop<br>服务就停止了。</p>
+<p>最后我们就可以愉快的开始php的学习了。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> php </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[React.js小书总结]]></title>
       <url>/2017/08/27/react.js%E5%B0%8F%E4%B9%A6%E6%80%BB%E7%BB%93/</url>
       <content type="html"><![CDATA[<h3 id="第一阶段"><a href="#第一阶段" class="headerlink" title="第一阶段"></a>第一阶段</h3><blockquote>
