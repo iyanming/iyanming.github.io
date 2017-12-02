@@ -105,6 +105,33 @@ wget 下载地址
     </entry>
     
     <entry>
+      <title><![CDATA[知识积累]]></title>
+      <url>/2017/08/27/%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF/</url>
+      <content type="html"><![CDATA[<p>ps -e | grep apache  查看进程（个人理解）</p>
+<p>./    这种写法后面都跟一个脚本文件 用来执行脚本</p>
+<p>service apache2 status 显示apache2服务的当前状态</p>
+<p>./mysql -uroot -p123456    (root为用户，123456为密码)运行mysql</p>
+ <a id="more"></a>
+<p>css类名选择器：class 中同时包含 important 和 warning 的所有元素有银色的背景<br>.important.warning {background:silver;}</p>
+<p>css flexbox布局:  <a href="http://zh.learnlayout.com/flexbox.html" target="_blank" rel="external">点这里～飞机票</a><br>                             flex-direction 属性规定灵活项目的方向:<a href="http://www.runoob.com/cssref/css3-pr-flex-direction.html" target="_blank" rel="external">详细用法</a></p>
+<p>CSS3特有的选择器，E &gt; F 表示选择E元素的所有子F元素，与E F的区别在于，E F选择所有后代元素，&gt;只选择一代。 没有&lt;的用法。<br>E &gt;*表示选择E元素的所有子元素。</p>
+<p>css flex布局：<br>justify-content (适用于父类容器上)<br>设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。</p>
+<pre><code>display:flex;
+justify-content:space-between;
+</code></pre><p> 下面的注册帐号以及忘记密码：（比较常用）<br><img src="http://ooerhngjn.bkt.clouddn.com/flex-demo.png" alt="flex-demo"></p>
+<p><img src="http://ooerhngjn.bkt.clouddn.com/flex-demos.png" alt="flex-demos"></p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 基础知识 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[React.js小书总结]]></title>
       <url>/2017/08/27/react.js%E5%B0%8F%E4%B9%A6%E6%80%BB%E7%BB%93/</url>
       <content type="html"><![CDATA[<h3 id="第一阶段"><a href="#第一阶段" class="headerlink" title="第一阶段"></a>第一阶段</h3><blockquote>
@@ -231,33 +258,6 @@ wget 下载地址
         <tags>
             
             <tag> react </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[知识积累]]></title>
-      <url>/2017/08/27/%E7%9F%A5%E8%AF%86%E7%A7%AF%E7%B4%AF/</url>
-      <content type="html"><![CDATA[<p>ps -e | grep apache  查看进程（个人理解）</p>
-<p>./    这种写法后面都跟一个脚本文件 用来执行脚本</p>
-<p>service apache2 status 显示apache2服务的当前状态</p>
-<p>./mysql -uroot -p123456    (root为用户，123456为密码)运行mysql</p>
- <a id="more"></a>
-<p>css类名选择器：class 中同时包含 important 和 warning 的所有元素有银色的背景<br>.important.warning {background:silver;}</p>
-<p>css flexbox布局:  <a href="http://zh.learnlayout.com/flexbox.html" target="_blank" rel="external">点这里～飞机票</a><br>                             flex-direction 属性规定灵活项目的方向:<a href="http://www.runoob.com/cssref/css3-pr-flex-direction.html" target="_blank" rel="external">详细用法</a></p>
-<p>CSS3特有的选择器，E &gt; F 表示选择E元素的所有子F元素，与E F的区别在于，E F选择所有后代元素，&gt;只选择一代。 没有&lt;的用法。<br>E &gt;*表示选择E元素的所有子元素。</p>
-<p>css flex布局：<br>justify-content (适用于父类容器上)<br>设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。</p>
-<pre><code>display:flex;
-justify-content:space-between;
-</code></pre><p> 下面的注册帐号以及忘记密码：（比较常用）<br><img src="http://ooerhngjn.bkt.clouddn.com/flex-demo.png" alt="flex-demo"></p>
-<p><img src="http://ooerhngjn.bkt.clouddn.com/flex-demos.png" alt="flex-demos"></p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> 基础知识 </tag>
             
         </tags>
         
